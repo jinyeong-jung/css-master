@@ -1,0 +1,31 @@
+{
+  "name": "css-master",
+  "version": "1.0.0",
+  "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinyeong-jung/css-master.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinyeong-jung/css-master/issues"
+  },
+  "homepage": "https://github.com/jinyeong-jung/css-master#readme",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0",
+    "postcss-color-mod-function": "^3.0.3"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function": {}
+    }
+  }
+}
